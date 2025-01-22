@@ -1,0 +1,116 @@
+body{
+    background-image: url("https://images3.alphacoders.com/114/114869.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+    background-color: rgba(14, 11, 11, 0.5); /* Adjust the rgba values as needed */
+}
+.button1, .button2, .button3{
+    color: white;
+    text-decoration: none;
+    margin: 14%;
+    margin-top: 10%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.container li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+  
+li a:hover {
+    background-color: #ddd;
+}
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+  
+.card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
+    border-style: solid;
+    border-color: black;
+}
+  
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
+    width: 20%;
+    margin-top: -35.9%;
+    margin-left: 40%;
+}
+  
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
+    border-style: solid;
+    border-color: black;
+}
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
+    width: 20%;
+    margin-top: -35.9%;
+    margin-left: 75%;
+}
+  
+.card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
+    border-style: solid;
+    border-color: black;
+}
+
+.card4 {
+    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
+    width: 20%;
+    margin-top: 15%;
+    margin-left: 23%;
+}
+  
+.card4:hover {
+    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
+    border-style: solid;
+    border-color: black;
+}
+
+.card5 {
+    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
+    width: 20%;
+    margin-top: -34%;
+    margin-left: 58%;
+}
+  
+.card5:hover {
+    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
+    border-style: solid;
+    border-color: black;
+}
+
+.container {
+    background-image: url('https://images3.alphacoders.com/114/114869.jpg'); /* Change 'background.jpg' to your desired background image */
+    background-size: cover;
+    backdrop-filter: blur(10px); /* This applies the blur effect */
+}
+
+.title{
+    color: white;
+    text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #34343d;
+    }
+  }
