@@ -47,13 +47,13 @@ body{
     background-size: cover;
 }
 .container {
-    background-image: url('https://images3.alphacoders.com/114/114869.jpg'); /* Change 'background.jpg' to your desired background image */
+    background-image: url('https://images3.alphacoders.com/114/114869.jpg'); 
     background-size: cover;
-    backdrop-filter: blur(10px); /* This applies the blur effect */
+    backdrop-filter: blur(10px); 
 }
 
 nav {
-    background-color: rgba(14, 11, 11, 0.5); /* Adjust the rgba values as needed */
+    background-color: rgba(14, 11, 11, 0.5); 
 }
   
 ul {

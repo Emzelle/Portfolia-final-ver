@@ -1,26 +1,26 @@
-body{
-    background-image: url("https://images3.alphacoders.com/114/114869.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-image: url("https://images3.alphacoders.com/114/114869.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: sans-serif;
 }
+
 nav {
-    background-color: rgba(14, 11, 11, 0.5); /* Adjust the rgba values as needed */
+  background-color: rgba(14, 11, 11, 0.5);
 }
-.button1, .button2, .button3{
-    color: white;
-    text-decoration: none;
-    margin: 14%;
-    margin-top: 10%;
-}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
+  
 .container li {
     float: left;
 }
+  
 li a {
     display: block;
     color: white;
@@ -34,83 +34,62 @@ li a {
 li a:hover {
     background-color: #ddd;
 }
-.card1 {
-    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
-    width: 20%;
-    margin-top: 5%;
-    margin-left: 5%;
-}
-  
-.card1:hover {
-    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
-    border-style: solid;
-    border-color: black;
-}
-  
-.card2 {
-    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
-    width: 20%;
-    margin-top: -35.9%;
-    margin-left: 40%;
-}
-  
-.card2:hover {
-    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
-    border-style: solid;
-    border-color: black;
+
+
+.carousel {
+  margin: 50px auto;
+  max-width: 400px;
 }
 
-.card3 {
-    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
-    width: 20%;
-    margin-top: -35.9%;
-    margin-left: 75%;
-}
-  
-.card3:hover {
-    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
-    border-style: solid;
-    border-color: black;
+
+.project-card {
+  max-width: 100%;
+  margin: auto;
+  background-color: black;
+  padding: 80px;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
-.card4 {
-    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
-    width: 20%;
-    margin-top: 15%;
-    margin-left: 23%;
-}
-  
-.card4:hover {
-    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
-    border-style: solid;
-    border-color: black;
+.project-card img {
+  max-height: 220px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 30px;
 }
 
-.card5 {
-    box-shadow: 0 4px 8px 0 rgba(107, 65, 65, 0.2);
-    width: 20%;
-    margin-top: -34%;
-    margin-left: 58%;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
 }
-  
-.card5:hover {
-    box-shadow: 0 8px 16px 0 rgba(167, 164, 164, 0.2);
-    border-style: solid;
-    border-color: black;
+
+
+.title {
+  color: white;
+  text-decoration: none;
 }
+
 
 .container {
-    background-image: url('https://images3.alphacoders.com/114/114869.jpg'); /* Change 'background.jpg' to your desired background image */
-    background-size: cover;
-    backdrop-filter: blur(10px); /* This applies the blur effect */
+  background-image: url("https://images3.alphacoders.com/114/114869.jpg");
+  background-size: cover;
+  backdrop-filter: blur(10px);
 }
 
-.title{
-    color: white;
-    text-decoration: none;
-}
+
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: #34343d;
-    }
+  body {
+    background-color: #34343d;
   }
+
+  .carousel {
+    max-width: 90%;
+  }
+
+  .project-card img {
+    max-height: 180px;
+  }
+}
